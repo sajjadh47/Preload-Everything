@@ -1,0 +1,2 @@
+# Preload-Everything
+Turn Your Website Into An Ajax Powered Instant Loaded Single Page Website. It's Not SPA, but More Likely! Make Your Website More Fast By Caching The Pages Ahead Of The Time. While Your Visitors On A Page, Preload Other Pages For Fast Access! You Can Cache Internal, External or Even Both Type Pages! Plugin Will Use Browser Built-In Storage First To Store Caches, As Well As Clearing Them When User Leaves The Website! The Cache LifeTime is Equal Session Lifetime! Once User Closes The Tab Caches Also Be Deleted!
