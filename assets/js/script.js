@@ -6,8 +6,8 @@ jQuery( document ).ready( function( $ )
 
 	$( window ).on( 'beforeunload', function()
 	{
-        localStorage.clear();
-    });
+		localStorage.clear();
+	} );
 
 	CACHE_SET = function( key, value )
 	{
@@ -56,7 +56,7 @@ jQuery( document ).ready( function( $ )
 		$.get( e, function( data )
 		{
 			CACHE_SET( MD5( e ), data );
-		});
+		} );
 	}
 
 	setTimeout( function()
@@ -97,7 +97,7 @@ jQuery( document ).ready( function( $ )
 			{
 				GET_CONTENT( href );
 			}
-		});
+		} );
 
 	}, 2000 );
 
@@ -136,10 +136,10 @@ jQuery( document ).ready( function( $ )
 			event.preventDefault();
 
 			document.open();
-	        	
-	        	document.write( cache );
-	        
-	        document.close();
+				
+				document.write( cache );
+			
+			document.close();
 		}
-	});
-});
+	} );
+} );
