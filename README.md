@@ -3,7 +3,7 @@
 [![Plugin Banner](https://ps.w.org/preload-everything/assets/banner-1544x500.png)](https://wordpress.org/plugins/preload-everything/)
 
 **Tags:** cache, preload, preloading, fast, performance, speed, speed-optimization \
-**Tested up to:** 6.9 \
+**Tested up to:** 7.0 \
 **Requires PHP:** 8.0
 
 Fasten Your Website Loading Speed By Preloading Internal Pages Ahead Of The Time For Your Visitors.
@@ -48,11 +48,14 @@ Just after installing the plugin, go to settings page and set the plugin setting
 
 ## Screenshots
 
-### 1. settings
+### 1. Settings
 
 ![settings](https://ps.w.org/preload-everything/assets/screenshot-1.png)
 
 ## Changelog
+
+### 2.0.3
+- Compatibility checkup for latest wp version 7.0
 
 ### 2.0.2
 - Checked for latest wp version 6.9
